@@ -1,0 +1,94 @@
+
+
+
+.content_collapse {
+    left: 65px;
+}
+
+.container {
+    padding: 30px;
+    background: #fff;
+}
+
+
+//顶部提示框统一位置
+.el-message {
+	top: 16px !important;
+}
+
+//顶部tag样式
+.header_tags {
+	
+}
+
+
+//页面顶部搜索框统一样式
+.filter_box { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+
+//按钮样式统一
+.green_button {
+	background-color: #0DC6C9 !important;
+}
+.danger_button {
+	background-color: #FF635B !important;
+}
+.orange_yellow_button {
+	background-color: #FFA924 !important;
+}
+.el-button {
+	border: 0;
+	padding: 10px 20px;
+	height: auto;
+	&:hover,&:active,&:focus {
+		opacity: 0.8;
+	}
+}
+
+
+//搜索框样式统一
+.el-input {
+	height: 34px;
+	color: #333333;
+}
+input::placeholder {
+	color: #C0C4CC !important;
+}
+.search .el-icon {
+	font-size: 16px;
+}
+
+//table初始化
+.table_container {
+	.el-table {
+		color: #333333;
+		thead {
+			color: #333333;
+		}
+		.el-table__cell {
+			padding: 18px 0;
+		}
+		.cell {
+			padding-left: 30px;
+		}
+	}
+}
+
+
+
+//底部page
+.pagination {
+	// position: fixed;
+	// bottom: 100px;
+	margin-top: 20px;
+	display: flex;
+	justify-content:flex-end;
+	.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li, .el-pagination.is-background .btn-next.is-disabled, .el-pagination.is-background .btn-next:disabled, .el-pagination.is-background .btn-prev.is-disabled, .el-pagination.is-background .btn-prev:disabled, .el-pagination.is-background .el-pager li.is-disabled, .el-pagination.is-background .el-pager li:disabled {
+		background: #fff;
+	}
+}
